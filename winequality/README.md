@@ -3,10 +3,10 @@
 Goal: The purpose of this individual assignment is to learn how to develop parallel machine learning (ML) applications in Amazon AWS cloud platform. Specifically, you will learn: (1) how to use Apache Spark to train an ML model in parallel on multiple EC2 instances; (2) how to use Spark’s MLlib to develop and use an ML model in the cloud; (3) How to use Docker to create a container for your ML model to simplify model deployment.
 
 ## Full Readme 
-* [Readme word](https://github.com/nieldeokar/Wine-quality-prediction/blob/master/ReadMe_doc.docx)
+* [Readme word](https://github.com/Garima-njit/Wine-quality-prediction-model/main/winequality/ReadMe_doc.docx)
 
 ## Docker image link
-* [Docker image : nieldeokar/wine-prediction-mvn:1.0](https://hub.docker.com/repository/docker/nieldeokar/wine-prediction-mvn)
+* [Docker image : garima/wine-prediction-mvn:1.0](https://hub.docker.com/repository/docker/garima/wine-prediction-mvn)
 
 
 ## Before running Requirements :
@@ -18,13 +18,13 @@ Goal: The purpose of this individual assignment is to learn how to develop paral
 
 ## Docker run instructions
 ````
-docker pull nieldeokar/wine-prediction-mvn:1.0
+docker pull garima/wine-prediction-mvn:1.0
 
-Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.csv ] nieldeokar/wine-prediction-mvn:1.0
+Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.csv ] garima/wine-prediction-mvn:1.0
 
 for e.g.
 
-docker run -v /Users/niel/Desktop/docker-attempt/TestDataset.csv:/data/TestDataset.csv nieldeokar/wine-prediction-mvn:1.0
+docker run -v /Users/garima/Desktop/docker-attempt/TestDataset.csv:/data/TestDataset.csv garima/wine-prediction-mvn:1.0
 ```` 
 
 
