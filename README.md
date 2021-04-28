@@ -18,11 +18,11 @@ Goal: The purpose of this individual assignment is to learn how to develop paral
 
 ## Docker run instructions
 ````
-docker pull garima/wine-prediction-mvn:1.0
+docker pull garima2602/wine-quality-prediction-garima2602
 
-Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.csv ] garima/wine-prediction-mvn:1.0
+Docker run -v [fullLocalPath of TestDataset.csv: data/TestDataset.csv ] garima2602/wine-quality-prediction-garima2602
 
 for e.g.
 
-docker run -v /Users/garima/Desktop/docker-attempt/TestDataset.csv:/data/TestDataset.csv garima/wine-prediction-mvn:1.0
+docker run -v /Users/garima2602/Desktop/docker-attempt/TestDataset.csv:/data/TestDataset.csv garima2602/wine-quality-prediction-garima2602
 ```` 
