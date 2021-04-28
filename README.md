@@ -6,7 +6,7 @@ Goal: The purpose of this individual assignment is to learn how to develop paral
 * [Readme word](https://github.com/Garima-njit/Wine-quality-prediction-model/blob/main/winequality/ReadMe_doc.docx)
 
 ## Docker image link
-* [Docker image : garima/wine-prediction-mvn:1.0](https://hub.docker.com/repository/docker/garima/wine-prediction-mvn)
+* [Docker image : garima2602/wine-quality-prediction-garima2602](https://hub.docker.com/repository/docker/garima2602/wine-quality-prediction-garima2602)
 
 
 ## Pre-requisites :
